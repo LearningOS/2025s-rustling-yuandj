@@ -4,10 +4,11 @@
 // hint.
 
 
-fn main() {
-    call_me();
-}
 
 fn call_me() {
+    println!("Called the function");
+}
 
+fn main() {
+    call_me();
 }
